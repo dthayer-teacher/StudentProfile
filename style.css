@@ -1,0 +1,271 @@
+/* Makes sizing easier to control */
+* {
+    box-sizing: border-box;
+}
+
+
+/* -------------------------
+   PAGE
+-------------------------- */
+
+body {
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #e9f1f7,
+        #cbdce8
+    );
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+}
+
+
+/* -------------------------
+   PROFILE CARD
+-------------------------- */
+
+.profile-card {
+    background-color: white;
+
+    width: 100%;
+
+    max-width: 550px;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.15);
+
+    text-align: center;
+}
+
+
+/* -------------------------
+   PROFILE HEADER
+-------------------------- */
+
+.profile-header {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    margin-bottom: 25px;
+
+    text-align: left;
+}
+
+
+/* -------------------------
+   PROFILE PICTURE
+-------------------------- */
+
+.profile-picture {
+    width: 140px;
+
+    height: 140px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid #2c6e9b;
+
+    flex-shrink: 0;
+}
+
+
+/* -------------------------
+   NAME SECTION
+-------------------------- */
+
+.name-section {
+    flex: 1;
+}
+
+
+.name-section h1 {
+    margin: 0 0 5px 0;
+
+    color: #253746;
+}
+
+
+.name-section h2 {
+    color: #5d7180;
+
+    margin: 0 0 10px 0;
+
+    font-size: 20px;
+}
+
+
+.name-section p {
+    margin: 5px 0;
+
+    color: #555555;
+}
+
+
+/* -------------------------
+   HEADINGS
+-------------------------- */
+
+h1 {
+    margin-bottom: 5px;
+
+    color: #253746;
+}
+
+
+h2 {
+    color: #5d7180;
+
+    margin-top: 0;
+
+    font-size: 20px;
+}
+
+
+h3 {
+    color: #253746;
+}
+
+
+/* -------------------------
+   PROFILE INFORMATION
+-------------------------- */
+
+.profile-info {
+    margin-top: 25px;
+
+    text-align: left;
+
+    background-color: #f4f7f9;
+
+    padding: 20px;
+
+    border-radius: 12px;
+}
+
+
+.profile-info p {
+    margin: 10px 0;
+}
+
+
+/* -------------------------
+   BIOGRAPHY
+-------------------------- */
+
+.bio {
+    margin-top: 25px;
+
+    line-height: 1.6;
+}
+
+
+/* -------------------------
+   NAVIGATION
+-------------------------- */
+
+.navigation {
+    margin-top: 30px;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+
+.navigation a {
+    background-color: #2c6e9b;
+
+    color: white;
+
+    text-decoration: none;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+
+.navigation a:hover {
+    background-color: #194866;
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* -------------------------
+   OTHER PAGES
+-------------------------- */
+
+.page-card {
+    background-color: white;
+
+    width: 100%;
+
+    max-width: 700px;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.15);
+
+    line-height: 1.6;
+}
+
+
+.page-card h1 {
+    text-align: center;
+}
+
+
+.page-card h2 {
+    margin-top: 30px;
+}
+
+
+/* -------------------------
+   LISTS
+-------------------------- */
+
+ul {
+    line-height: 1.8;
+}
+
+
+.favorites-list {
+    background-color: #f4f7f9;
+
+    padding: 25px 25px 25px 50px;
+
+    border-radius: 12px;
+}
